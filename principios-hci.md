@@ -1,44 +1,90 @@
-# Fatores Humanos no Design de Interface
-Fatores humanos referem-se aos aspectos que influenciam a interação do usuário com um sistema, focando em como as pessoas percebem, processam e respondem à informação.
 
-1. Cor
 
-Importância: Crucial para a identificação, diferenciação e associação de elementos na interface.
+# Princípios de HCI (Interação Humano-Computador)
 
-Observação: Não há uma "fórmula pronta"; seu uso deve ser contextual e alinhado aos padrões culturais e objetivos de design (ex: vermelho para alerta, verde para sucesso).
+Este guia apresenta os principais conceitos de HCI, fundamentais para criar interfaces intuitivas, acessíveis e eficientes.
 
-2. Fonte (Tipografia)
+---
 
-Importância: Essencial para a legibilidade e o design geral da interface. Deve ser escolhida com base no contexto, público-alvo e necessidades de acessibilidade.
+## 1. Fatores Humanos no Design de Interface
 
-Tamanho da Fonte: Um fator determinante para a leitura confortável e a acessibilidade. Deve ser ajustado ao tipo de dispositivo e à densidade de informação da tela.
+Fatores humanos são aspectos físicos, cognitivos e emocionais que influenciam a interação do usuário com sistemas computacionais. Considerar esses fatores é essencial para criar interfaces que sejam fáceis de usar, agradáveis e seguras.
 
-# Engenharia Semiótica e Interpretação de Símbolos
-A Engenharia Semiótica estuda como os designers "comunicam" seu significado de design aos usuários através da interface, usando símbolos e linguagem.
+### Cor
+- **Importância:** As cores ajudam na identificação, diferenciação e associação de elementos.
+- **Dicas práticas:**
+	- Use cores para indicar estados (ex: vermelho para erro, verde para sucesso, amarelo para atenção).
+	- Considere o daltonismo: evite depender apenas da cor para transmitir informações importantes.
+	- Mantenha contraste suficiente entre texto e fundo para garantir legibilidade.
+- **Exemplo:**
+	- Um botão de "Excluir" geralmente é vermelho, enquanto um botão de "Salvar" pode ser verde.
 
-Interpretação Semiótica: Ocorre sempre que o usuário consegue interpretar símbolos na interface.
+### Fonte (Tipografia)
+- **Importância:** Tipografia adequada facilita a leitura e a compreensão das informações.
+- **Boas práticas:**
+	- Escolha fontes simples e legíveis.
+	- Use tamanhos de fonte apropriados para diferentes dispositivos (maior em telas pequenas, menor em telas grandes).
+	- Evite usar muitas fontes diferentes na mesma interface.
+	- Considere a acessibilidade: permita ajuste de tamanho de fonte pelo usuário.
 
-Princípio da Simplicidade: É geralmente mais simples interpretar um único símbolo do que uma cadeia de símbolos (linguagem escrita). Por exemplo, um desenho (ícone) é muitas vezes mais rápido de entender do que uma frase que o descreve.
+---
 
-Cores como Sinalizadores: As cores podem auxiliar na interpretação de ações:
+## 2. Engenharia Semiótica e Interpretação de Símbolos
 
-Um botão com um "X" ou um sinal vermelho é intuitivamente interpretado como uma ação de finalizar, cancelar ou excluir.
+A Engenharia Semiótica estuda como os designers comunicam significados por meio de símbolos, ícones, cores e linguagem visual.
 
-Um símbolo verde (com ou sem um "checkmark") intuitivamente funciona para confirmar ou indicar sucesso.
+- **Interpretação Semiótica:** O usuário interpreta símbolos com base em experiências, cultura e contexto.
+- **Princípio da Simplicidade:** Ícones e símbolos simples são mais rapidamente compreendidos do que textos longos ou símbolos complexos.
 
-# Meta-Mensagem
+### Exemplos Visuais
+- Um botão com um **X** ou sinal vermelho → geralmente indica "fechar", "cancelar" ou "excluir".
+- Um símbolo verde com um "checkmark" → normalmente indica "confirmar" ou "sucesso".
+- Ícones de lixeira, lupa, engrenagem, etc., são exemplos de símbolos universais.
 
-A Meta-Mensagem acontece quando um emissor (designer) envia uma mensagem (o design da interface) a um receptor (usuário) que consegue traduzir e compreender a intenção por trás do design.
+**Dica:** Sempre que possível, combine ícones com rótulos de texto para maior clareza.
 
-Engenharia Cognitiva e Modelos de Design
-A Engenharia Cognitiva aplica o conhecimento sobre a cognição humana para a concepção, o design e a construção de sistemas interativos. Ela é fundamental para criar interfaces que se alinhem à forma como as pessoas pensam e resolvem problemas.
+---
 
-# Modelos de Uso e Design
+## 3. Meta-Mensagem
 
-Modelo de Usuário (User Model): Representa a compreensão e as expectativas do usuário sobre como a aplicação funciona.
+Meta-mensagem é a intenção implícita transmitida pelo design da interface. O designer envia uma mensagem (por meio de cores, layout, símbolos) e espera que o usuário compreenda a intenção por trás dessas escolhas.
 
-Modelo do Designer (Designer's Model / Conceptual Model): É o pensamento original e a visão da criação da aplicação. É a imagem mental que o designer tenta passar ao usuário (cores, fontes, organização de tarefas, etc.).
+**Exemplo:**
+- Um botão destacado em uma cor vibrante sugere que é a principal ação a ser realizada.
+- Um texto em cinza claro pode indicar que está desabilitado ou indisponível.
 
-Imagem do Sistema (System Image): É a realização da interface que o usuário interage. Está ligada ao periférico (computador, celular, tablet) e ao design de interface baseado nesse dispositivo. O objetivo é que a Imagem do Sistema seja o mais próximo possível do Modelo do Usuário para agradar e atender a diversos tipos de usuários.
+**Dica:** Certifique-se de que a mensagem transmitida pelo design seja clara e não gere interpretações ambíguas.
 
-Modelo de Tarefas (Task Model): Descreve as sequências de ações que o usuário precisa executar para atingir um objetivo específico dentro do sistema.
+---
+
+## 4. Engenharia Cognitiva e Modelos de Design
+
+A Engenharia Cognitiva aplica conhecimentos sobre como as pessoas pensam, aprendem e resolvem problemas para criar sistemas interativos mais eficientes.
+
+### Modelos de Uso e Design
+
+- **Modelo de Usuário (User Model):**
+	- Representa o que o usuário acredita sobre o funcionamento do sistema.
+	- Exemplo: O usuário espera que clicar em um ícone de "casa" o leve para a página inicial.
+- **Modelo do Designer (Designer's Model / Conceptual Model):**
+	- É a visão e intenção do designer ao criar a interface.
+	- Inclui decisões sobre cores, organização, fluxo de tarefas, etc.
+- **Imagem do Sistema (System Image):**
+	- É a interface real apresentada ao usuário.
+	- Inclui todos os elementos visuais, textos, botões e interações.
+	- O objetivo é que a Imagem do Sistema seja o mais próxima possível do Modelo de Usuário, para evitar confusão.
+- **Modelo de Tarefas (Task Model):**
+	- Descreve as etapas e ações que o usuário precisa realizar para atingir um objetivo.
+	- Exemplo: Para enviar um e-mail, o usuário precisa abrir o app, clicar em "Novo", digitar o texto e clicar em "Enviar".
+
+**Dica:** Teste a interface com usuários reais para garantir que o modelo mental deles esteja alinhado com o design proposto.
+
+---
+
+## 5. Dicas Gerais para um Bom Design de Interface
+
+- Priorize a simplicidade e clareza.
+- Mantenha consistência visual e funcional.
+- Ofereça feedback imediato para as ações do usuário.
+- Garanta acessibilidade para todos os públicos.
+- Teste e refine a interface continuamente com base no uso real.
