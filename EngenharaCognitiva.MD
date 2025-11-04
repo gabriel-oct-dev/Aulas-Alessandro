@@ -52,10 +52,10 @@ Usuário
 Representa as etapas que o sistema realiza para fornecer feedback ao usuário:
 
 ```plaintext
-     Sistema
-       o
-      /|\
-       |
+    Sistema
+ |------------|
+ |            |
+ |____________|     
       / \
  | Percepção | Interpretação | Avaliação |
  |     1     |       2       |     3     |
